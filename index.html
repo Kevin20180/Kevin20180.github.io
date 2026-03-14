@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Jogos</title>
-        <style>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos</title>
+    <style>
 * {
     box-sizing: border-box;
 }
@@ -17,7 +17,7 @@ body {
 
 header {
     padding: 20px;
-    background-color: #5ea8ff;
+    background-image: linear-gradient(90deg, #449aff, #a0cbff);
     color: white;
 }
 
@@ -26,7 +26,7 @@ header h1 {
 }
 
 .games {
-    padding: 10px;
+    padding: 20px;
 }
 
 .games ul {
@@ -37,27 +37,37 @@ header h1 {
 .games li {
     display: block;
     margin: 0;
-    padding: 20px;
+    padding: 15px;
     border: 1px solid black;
     border-radius: 5px;
 }
-        </style>
-    </head>
-    <body>
-        <header>
-            <h1>Kevin's Site</h1>
-            <p>Projetos criados por mim.</p>
-        </header>
+
+.games li h3 {
+    margin: 0;
+}
+
+.games li p {
+    margin-bottom: 0;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kevin's Site</h1>
+        <span>Projetos criados por mim.</span>
+    </header>
+    
+    <section class="games">
+        <h2>🎮 Jogos:</h2>
+        <hr/>
         
-        <section class="games">
-            <h2>Jogos:</h2>
-            <hr/>
-            
-            <ul>
-                <li>
-                    <a href="games/money-game/index.html">Money Game</a>
-                </li>
-            </ul>
-        </section>
-    </body>
+        <ul>
+            <li>
+                <h3>👆 <a href="/ClickGame/index.html">Money Game</a></h3>
+                <p>Clique rápido. Venda cliques, compre auto clickers
+                e multiplicadores para conseguir cada vez mais cliques!</p>
+            </li>
+        </ul>
+    </section>
+</body>
 </html>
