@@ -29,14 +29,21 @@ header h1 {
 
 .games li {
     display: block;
-    margin: 0;
+    margin: 0 0 20px 0;
     padding: 15px;
-    border: 1px solid black;
-    border-radius: 5px;
+    border: 1.5px solid #449aff;
+    border-radius: 10px;
 }
 
-.games li h3 {
+.games li a {
+    display: block;
     margin: 0;
+    width: 100%;
+    border-bottom: 2px solid #449aff;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: #005ecb;
 }
 
 .games li p {
